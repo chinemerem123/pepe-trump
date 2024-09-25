@@ -12,7 +12,14 @@ body {
   overflow-x: hidden;
 }
 
+.con {
+  padding-left: 140px !important;
+  padding-right: 140px !important;
+  position: relative;
+}
+
 .nav {
+  background-color: #4c9540;
   position: relative;
   width: 100%;
   padding: 20px;
@@ -49,6 +56,22 @@ body {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+.hero-section #watermark {
+  width: 2000px;
+  position: absolute;
+  left: -400px;
+  top: -500px;
+  z-index: -10;
+  opacity: 0.2;
+}
+.hero-section #hero-title {
+  width: 520px;
+}
+.hero-section #auto-write {
+  font-size: 23px;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 800px) {
   .nav .container {
     padding-left: 20px !important;
@@ -65,5 +88,19 @@ body {
     scale: 0.7;
     right: 0;
     width: 170px;
+  }
+  .con {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .hero-section {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .hero-section #hero-title {
+    width: 300px;
+  }
+  .hero-section #auto-write {
+    font-size: 16px;
   }
 }/*# sourceMappingURL=style.css.map */

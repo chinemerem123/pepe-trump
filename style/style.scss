@@ -12,6 +12,12 @@ body{
     overflow-x: hidden;
 }
 
+.con{
+    padding-left: 140px !important;
+    padding-right: 140px !important;
+    position: relative;
+}
+
 @mixin btn{
     background-color: transparent;
     color: white;
@@ -31,6 +37,7 @@ body{
 }
 
 .nav{
+    background-color: #4c9540;
     position: relative;
     width: 100%;
     padding: 20px;
@@ -58,6 +65,26 @@ body{
    
 }
 
+.hero-section{
+
+    #watermark{
+width: 2000px;
+position: absolute;
+left: -400px;
+top: -500px;
+z-index: -10;
+opacity: 0.2;
+    }
+#hero-title{
+    width: 520px;
+}
+#auto-write{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+}
+
 @media screen and (max-width:800px){
   .nav{
         .container{
@@ -77,6 +104,22 @@ body{
                 right: 0;
                 width: 170px;
             }
+        }
+    }
+
+    .con{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .hero-section{
+        text-align: center;
+        margin-top: 30px;
+        #hero-title{
+            width: 300px;
+        }
+        #auto-write{
+            font-size: 16px;
         }
     }
 }
