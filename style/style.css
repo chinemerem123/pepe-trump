@@ -17,6 +17,7 @@ body {
   width: 100%;
   padding: 20px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  overflow-x: hidden;
 }
 .nav .container {
   padding-left: 150px !important;
