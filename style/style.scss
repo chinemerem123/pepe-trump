@@ -4,46 +4,12 @@
     box-sizing: border-box;
 }
 
-#water-img{
-    position: absolute;
-    width: 2000px;
-    left: -450px;
-    top: -580px;
-    z-index: -10;
-    opacity: 0.2;
-}
-
-.p-color{
-  color:  #4c9540;
-}
-
-.bg-color{
-background-color: #4c9540;
-}
-
 body{
     position: relative;
     width: 100%;
     height: 100%;
     background-color: #4c9540;
     overflow-x: hidden;
-}
-
-#contianer{
-    padding-left: 70px;
-    padding-right: 70px;
-}
-
-
-
-.navbar{
-    position: relative;
-    box-shadow:5px 5px 10px rgba(0, 0, 0,0.2) !important;
-}
-
-#logo{
-    width: 450px;
-    margin-left: 150px;
 }
 
 @mixin btn{
@@ -53,171 +19,40 @@ body{
     width: 280px;
     padding: 12px;
     border:1px solid white;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
-    top:45px;
     position: relative;
     transition: 0.3s;
+    text-decoration: none;
+    text-align: center;
     &:hover{
         background-color: rgba(255, 255, 255,0.2);
     }
-    
 }
 
-.btn-connect{
-    margin-left: 200px;
-@include btn();
-
-}
-
-
-
-.title{
-    img{
-        width: 550px;
-    }
-}
-
-.text-20{
-    font-size: 22px;
-    color: white;
-    font-weight: bold;
-
-}
-
-.contract-address{
-    .add-coincap{
-.img-hold{
-    margin-left: 20px;
-    img{
-        width: 40px;
-        border-radius: 50%;
-        transition: 0.3s;
-
-        &:hover{
-            box-shadow: 0px 0px 10px white;
-        }
-    }
-}
-    }
-
-    .address-copy{
-        margin-top: 5px;
-        margin-top: 20px;
-        #address{
-font-size: 20px;
-font-weight: 600;
-        }
-        button{
-            border: none;
-            background-color: transparent;
-            margin-left: 8px;
-        }
-    }
-}
-
-#col2-img{
-width:400px;
-margin-top: 200px;
-}
-
-.seacure{
-    background-color: rgba(0, 0, 0,0.5);
-    border:1.5px solid white;
-    padding: 10px 15px;
-   width: 350px;
-   border-radius: 15px;
-   margin-top: 20px;
-    #title{
-        width: 200px;
-    }
-    #seacure{
-        border-radius: 50%;
-        width: 65px;
-        height: 67px;
-        margin-left: 25px;
-        margin-top: 7px;
-    }
-    a{
-        text-decoration: none;
-        color: rgba(255, 255, 255,0.5);
-        font-size: 20px;
-        font-weight: 600;
-         span{
-            margin-left: 15px;
-            position: relative;
-            top: -10px;
-         }
-    }
-}
-
-.btn-holder{
-    .btn-buy{
-        @include btn();
-    }
-    a{
-        &:nth-child(3){
-            position: relative;
-            top: 20px;
-        }
-    }
-   
-}
-
-#line{
-    margin-top:110px ;
+.nav{
+    position: relative;
     width: 100%;
-}
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0,0.3);
 
+    .container{
+        padding-left: 150px !important;
+        padding-right: 150px !important;
+        display: flex;
+      align-items: center;
+      position: relative;
 
-@media screen and (max-width:800px){
-    #water-img{
-        display: none;
-    }
-    #contianer{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    
-#logo{
-    width: 200px;
-    margin-left: 0px;
-    scale: 0.8;
-}
-.btn-connect{
-    scale: 0.7;
-    width: 200px;
-    top: 20px;
-    position: absolute;
-    right: 10px;
-}
+        #logo{
+            width: 450px;
+        }
 
-.title{
-    text-align: center;
-    img{
-        margin-top: 40px;
-        width: 350px;
-    }
-}
-
-.text-20{
-    text-align: center;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.contract-address{
-    .add-coincap{
-        text-align: center;
-        .img-hold{
-            width: 50px;
+        a{
+            @include btn();
+            position: absolute;
+            right: 250px;
         }
     }
-}
 
-.address-copy{
-    #address{
-        font-size: 18px;
-    }
-}
+   
 }
