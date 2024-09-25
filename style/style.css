@@ -57,7 +57,8 @@ body {
   .nav .container #logo {
     width: 180px;
     position: relative;
-    left: -10px;
+    left: -20px;
+    scale: 0.9;
   }
   .nav .container a {
     font-size: 16px;
