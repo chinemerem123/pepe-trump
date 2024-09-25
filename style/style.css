@@ -41,7 +41,7 @@ body {
   color: white;
   border-radius: 50px;
   width: 280px;
-  padding: 12px;
+  padding: 11px;
   border: 1px solid white;
   font-size: 22px;
   font-weight: bold;
@@ -103,6 +103,57 @@ body {
   border: none;
   background-color: transparent;
 }
+.hero-section .box {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  width: 330px;
+  border-radius: 15px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.hero-section .box .sub img {
+  width: 150px;
+  height: 50px;
+  position: relative;
+  left: 20px;
+  top: -5px;
+}
+.hero-section .box .sub span {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  left: 30px;
+  top: -12px;
+}
+.hero-section .box #secure {
+  border-radius: 50px;
+  width: 64px;
+  height: 67px;
+  margin-left: 70px;
+}
+.hero-section .btn-holder {
+  margin-top: 50px;
+}
+.hero-section .btn-holder a button {
+  background-color: transparent;
+  color: white;
+  border-radius: 50px;
+  width: 280px;
+  padding: 11px;
+  border: 1px solid white;
+  font-size: 22px;
+  font-weight: bold;
+  position: relative;
+  transition: 0.3s;
+  text-decoration: none;
+  text-align: center;
+}
+.hero-section .btn-holder a button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
 
 @media screen and (max-width: 800px) {
   .nav .container {
@@ -140,5 +191,8 @@ body {
   }
   .hero-section .address-clip input {
     font-size: 14px;
+  }
+  .btn-holder {
+    margin-top: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
