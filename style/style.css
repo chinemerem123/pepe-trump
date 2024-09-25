@@ -71,6 +71,38 @@ body {
   font-size: 23px;
   font-weight: bold;
 }
+.hero-section .contract-box {
+  margin-top: 20px;
+}
+.hero-section .contract-box .address-title {
+  margin-top: 10px;
+}
+.hero-section .contract-box .address-title .h3 {
+  font-size: 28px;
+  font-weight: 500;
+}
+.hero-section .contract-box #coinmarket {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.hero-section .address-clip {
+  margin-top: 20px;
+}
+.hero-section .address-clip input {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  width: 460px;
+  font-weight: 600;
+  outline: none;
+}
+.hero-section .address-clip button {
+  border: none;
+  background-color: transparent;
+}
 
 @media screen and (max-width: 800px) {
   .nav .container {
@@ -102,5 +134,11 @@ body {
   }
   .hero-section #auto-write {
     font-size: 16px;
+  }
+  .hero-section .contract-box .address-title .h3 {
+    font-size: 23px;
+  }
+  .hero-section .address-clip input {
+    font-size: 14px;
   }
 }/*# sourceMappingURL=style.css.map */
