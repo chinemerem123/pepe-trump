@@ -312,6 +312,34 @@ body {
   left: calc(50% - 200px);
 }
 
+.roadmap .title {
+  margin-top: 30px;
+}
+.roadmap .title img {
+  width: 250px;
+}
+.roadmap .road {
+  border-bottom: 5px solid rgba(255, 255, 255, 0.4);
+}
+.roadmap .road img {
+  width: 200px;
+}
+.roadmap .card {
+  border: 2px solid white;
+  box-shadow: 0px 0px 20px white;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+  border-radius: 30px;
+}
+.roadmap .card .h3 {
+  overflow: hidden;
+  padding: 12px;
+  color: white;
+  font-weight: bolder;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 40%;
+}
+
 @media screen and (max-width: 800px) {
   .nav .container {
     padding-left: 20px !important;
