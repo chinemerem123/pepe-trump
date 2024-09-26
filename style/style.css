@@ -164,6 +164,9 @@ body {
   margin-top: 195px;
 }
 
+.god-abeg {
+  overflow-x: hidden;
+}
 .god-abeg .card {
   background-color: rgba(0, 0, 0, 0.4) !important;
   border-radius: 40px !important;
