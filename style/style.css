@@ -156,8 +156,8 @@ body {
 }
 
 #img-col2 {
-  width: 430px;
-  margin-top: 180px;
+  width: 400px;
+  margin-top: 150px;
 }
 
 @media screen and (max-width: 800px) {
@@ -212,9 +212,9 @@ body {
   }
   #img-col2 {
     position: relative;
-    width: 430px;
+    width: 380px;
     left: calc(50% - 215px);
-    scale: 0.8;
+    scale: 0.6;
     margin-top: 60px;
   }
 }/*# sourceMappingURL=style.css.map */
