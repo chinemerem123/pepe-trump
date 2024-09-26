@@ -72,7 +72,7 @@ body{
 width: 2000px;
 position: absolute;
 left: -400px;
-top: -500px;
+top: -550px;
 z-index: -10;
 opacity: 0.2;
     }
@@ -177,6 +177,59 @@ margin-top: 30px;
     margin-top: 195px;
 }
 
+
+.god-abeg{
+
+    .card{
+        background-color: rgba(0, 0, 0,0.4) !important;
+        border-radius: 40px !important;
+        border: 2px solid white;
+        box-shadow: 0px 0px 20px white;
+        position: relative;
+        .h2{
+            img{
+                width: 250px;
+            }
+        }
+
+        table{
+            margin-top: 10px;
+            thead{
+                tr{
+                    text-align: center;
+                    th{
+                        font-size: 18px;
+                        color: white;
+                        
+                    }
+                }
+            }
+
+            tbody{
+                tr{
+                    text-align: center;
+                    td{
+                        margin-top: 40px;
+                        font-size: 16px;
+                        color: white;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+
+    #game{
+position: absolute;
+width: 600px;
+position: relative;
+padding: 20px;
+top: 0;
+left: calc(50% - 300px);
+border-radius: 30px;
+    }
+}
+
 @media screen and (max-width:800px){
   .nav{
         .container{
@@ -253,5 +306,18 @@ margin-top: 30px;
         left: calc(50% - 190px);
         margin-top: 60px;
         scale: 0.8;
+    }
+
+    .god-abeg{
+        .card{
+            background-color: transparent !important;
+            border:none;
+            box-shadow: none;
+        }
+
+        #game{
+        width: 380px;
+        left: calc(50% - 190px);
+        }
     }
 }
