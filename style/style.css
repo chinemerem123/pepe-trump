@@ -283,6 +283,35 @@ body {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+.supply {
+  margin-top: 60px;
+}
+.supply .title {
+  overflow: hidden;
+}
+.supply .title img {
+  width: 180px;
+}
+.supply .h3 {
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+.supply .sup {
+  position: relative;
+  font-size: 20px;
+}
+.supply .sup span {
+  position: absolute;
+  right: 5px;
+  font-weight: bold;
+}
+.supply #chart {
+  position: relative;
+  width: 400px;
+  left: calc(50% - 200px);
+}
+
 @media screen and (max-width: 800px) {
   .nav .container {
     padding-left: 20px !important;
@@ -400,5 +429,33 @@ body {
     left: 5%;
     padding: 10px;
     font-size: 14px;
+  }
+  .supply .title {
+    margin-top: 20px;
+  }
+  .supply .title img {
+    width: 150px;
+    position: relative;
+    left: calc(50% - 75px);
+  }
+  .supply .h3 {
+    text-align: center;
+  }
+  .supply .sup {
+    scale: 1;
+    width: 100%;
+    font-size: 14px;
+    align-items: center;
+  }
+  .supply .sup img {
+    width: 30px;
+    height: 17px;
+  }
+  .supply .sup b {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .supply #chart {
+    width: 300px;
+    left: calc(50% - 150px);
   }
 }/*# sourceMappingURL=style.css.map */
