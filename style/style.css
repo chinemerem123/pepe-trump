@@ -76,6 +76,7 @@ body {
 }
 .hero-section .contract-box {
   margin-top: 20px;
+  align-items: center;
 }
 .hero-section .contract-box .address-title {
   margin-top: 10px;
