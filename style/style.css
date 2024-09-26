@@ -219,6 +219,70 @@ body {
   line-height: 30px;
 }
 
+.leaderboard {
+  margin-top: 100px;
+}
+.leaderboard .title img {
+  width: 390px;
+}
+.leaderboard #pee {
+  margin-top: 50px;
+  width: 500px;
+}
+.leaderboard .card {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 2px solid white;
+  box-shadow: 0px 0px 15px white;
+  border-radius: 25px;
+}
+.leaderboard .card table {
+  margin-top: 10px;
+}
+.leaderboard .card table thead tr {
+  text-align: center;
+}
+.leaderboard .card table thead tr th {
+  font-size: 18px;
+  color: white;
+}
+.leaderboard .card table tbody tr {
+  text-align: center;
+}
+.leaderboard .card table tbody tr td {
+  margin-top: 40px;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+}
+.leaderboard .card table tbody tr td img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.leaderboard .card a {
+  position: relative;
+  top: -20px;
+}
+.leaderboard .card a button {
+  background-color: transparent;
+  color: white;
+  border-radius: 50px;
+  width: 280px;
+  padding: 11px;
+  border: 1px solid white;
+  font-size: 22px;
+  font-weight: bold;
+  position: relative;
+  transition: 0.3s;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+}
+.leaderboard .card a button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
 @media screen and (max-width: 800px) {
   .nav .container {
     padding-left: 20px !important;
@@ -300,5 +364,41 @@ body {
   }
   .fly .text b {
     color: rgba(255, 255, 255, 0.6) !important;
+  }
+  .leaderboard {
+    margin-top: 50px;
+  }
+  .leaderboard .title img {
+    width: 300px;
+  }
+  .leaderboard #pee {
+    width: 320px;
+  }
+  .leaderboard .card {
+    position: relative;
+    padding: 10px !important;
+    height: 520px;
+  }
+  .leaderboard .card table {
+    position: relative;
+    scale: 0.8;
+    width: 100%;
+    top: -40px;
+  }
+  .leaderboard .card table tbody tr td {
+    font-size: 14px;
+  }
+  .leaderboard .card a {
+    position: absolute;
+    top: 400px;
+    width: 100%;
+    left: 0%;
+  }
+  .leaderboard .card a button {
+    width: 90%;
+    position: relative;
+    left: 5%;
+    padding: 10px;
+    font-size: 14px;
   }
 }/*# sourceMappingURL=style.css.map */

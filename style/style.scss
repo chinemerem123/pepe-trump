@@ -249,6 +249,68 @@ border-radius: 30px;
     }
 }
 
+.leaderboard{
+    margin-top: 100px;
+    .title{
+        img{
+            width: 390px;
+        }
+    }
+    #pee{
+        margin-top: 50px;
+        width: 500px;
+    }
+
+    .card{
+        background-color: rgba(0, 0, 0,0.6);
+        border: 2px solid white;
+        box-shadow: 0px 0px 15px white;
+        border-radius: 25px;
+        
+        
+        table{
+            margin-top: 10px;
+            thead{
+                tr{
+                    text-align: center;
+                    th{
+                        font-size: 18px;
+                        color: white;
+                        
+                    }
+                }
+            }
+
+            tbody{
+                tr{
+                    text-align: center;
+                    td{
+                        margin-top: 40px;
+                        font-size: 16px;
+                        color: white;
+                        font-weight: 700;
+                    img{
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                    }
+                    }
+                }
+            }
+        }
+
+        a{
+            position: relative;
+top: -20px;
+            button{
+            @include btn();
+            width: 100%;
+            font-size: 20px;
+            }
+        }
+    }
+}
+
 
 @media screen and (max-width:800px){
   .nav{
@@ -357,6 +419,51 @@ border-radius: 30px;
             b{
                 color: rgba(255, 255, 255,0.6) !important;
             }
+        }
+    }
+
+    .leaderboard{
+        margin-top: 50px;
+        .title{
+            img{
+                width: 300px;
+            }
+        }
+        #pee{
+            width: 320px;
+        }
+        .card{
+            position: relative;
+            padding: 10px !important;
+            height: 520px;
+            table{
+                position: relative;
+                scale: 0.8;
+                width: 100%;
+                top: -40px;
+                tbody{
+                    tr{
+                        td{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+
+            a{
+                position: absolute;
+               top:400px;
+                width: 100%;
+                left: calc(50% - 50%);
+                button{
+                    width: 90%;
+                    position: relative;
+                    left: calc(50% - 45%);
+                    padding: 10px;
+                    font-size: 14px;
+                }
+            }
+       
         }
     }
 }
