@@ -83,6 +83,7 @@ body {
   margin-top: 10px;
 }
 .hero-section .contract-box .address-title .h3 {
+  overflow: hidden;
   font-size: 28px;
   font-weight: 500;
 }
@@ -207,6 +208,17 @@ body {
   border-radius: 30px;
 }
 
+.fly #fly-img {
+  width: 500px;
+}
+.fly .text {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 150px;
+  line-height: 30px;
+}
+
 @media screen and (max-width: 800px) {
   .nav .container {
     padding-left: 20px !important;
@@ -272,5 +284,21 @@ body {
   .god-abeg #game {
     width: 380px;
     left: calc(50% - 190px);
+  }
+  .fly #fly-img {
+    margin-top: 20px;
+    position: relative;
+    width: 320px;
+    left: calc(50% - 160px);
+  }
+  .fly .text {
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .fly .text b {
+    color: rgba(255, 255, 255, 0.6) !important;
   }
 }/*# sourceMappingURL=style.css.map */
