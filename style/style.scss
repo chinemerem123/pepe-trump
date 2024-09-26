@@ -171,6 +171,11 @@ margin-top: 30px;
 
 }
 
+#img-col2{
+    width: 430px;
+    margin-top: 180px;
+}
+
 @media screen and (max-width:800px){
   .nav{
         .container{
@@ -224,5 +229,10 @@ margin-top: 30px;
     }
     .btn-holder{
         margin-top: 20px;
+    }
+
+    #img-col2{
+        width: 430px;
+        margin-top: 60px;
     }
 }
