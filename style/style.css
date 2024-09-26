@@ -185,6 +185,12 @@ body {
     text-align: center;
     margin-top: 30px;
   }
+  .hero-section .address-clip {
+    background-color: red;
+  }
+  .hero-section .address-clip input {
+    width: 80%;
+  }
   .hero-section #hero-title {
     width: 300px;
   }

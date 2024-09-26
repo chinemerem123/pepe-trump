@@ -204,6 +204,14 @@ margin-top: 30px;
     }
 
     .hero-section{
+
+        .address-clip{
+            background-color: red;
+            input{
+                width: 80%;
+                
+            }
+        }
         text-align: center;
         margin-top: 30px;
         #hero-title{
@@ -236,6 +244,7 @@ margin-top: 30px;
         left: calc(50% - 165px);
 
     }
+
 
     #img-col2{
         position: relative;
