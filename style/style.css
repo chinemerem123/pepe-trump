@@ -329,7 +329,7 @@ body {
   box-shadow: 0px 0px 20px white;
   background-color: rgba(0, 0, 0, 0.5);
   margin-top: 50px;
-  border-radius: 30px;
+  border-radius: 40px;
 }
 .roadmap .card .h3 {
   overflow: hidden;
@@ -350,6 +350,46 @@ body {
   font-weight: bold;
   font-size: 18px;
   color: rgba(255, 255, 255, 0.5);
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.footer .icons {
+  justify-content: center;
+}
+.footer .icons .ic {
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  border: 1.5px solid white;
+  box-shadow: 0px 0px 10px white;
+  margin-left: 30px;
+  transition: 0.3s;
+}
+.footer .icons .ic:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.footer .icons .ic a {
+  color: white;
+}
+.footer .icons .ic a svg {
+  width: 24px;
+  height: 24px;
+}
+.footer .icons .ic a img {
+  height: 24px;
+  width: 24px;
+}
+.footer p {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 800px) {
@@ -507,5 +547,8 @@ body {
   }
   .roadmap .card {
     margin-top: 0;
+  }
+  .footer .icons .ic {
+    margin-top: 20px;
   }
 }/*# sourceMappingURL=style.css.map */

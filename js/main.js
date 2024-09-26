@@ -11,7 +11,7 @@ const text =
                 index = 0;
             }
         }
-        setInterval(writeText, 10);
+        setInterval(writeText, 50);
 
 
 
