@@ -56,6 +56,9 @@ body {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+.hero-section {
+  overflow-x: hidden;
+}
 .hero-section #watermark {
   width: 2000px;
   position: absolute;
@@ -156,8 +159,8 @@ body {
 }
 
 #img-col2 {
-  width: 400px;
-  margin-top: 150px;
+  width: 330px;
+  margin-top: 195px;
 }
 
 @media screen and (max-width: 800px) {
@@ -187,9 +190,10 @@ body {
   }
   .hero-section .address-clip {
     background-color: red;
+    align-items: center;
   }
   .hero-section .address-clip input {
-    width: 80%;
+    width: 90%;
   }
   .hero-section #hero-title {
     width: 300px;
@@ -213,8 +217,8 @@ body {
   #img-col2 {
     position: relative;
     width: 380px;
-    left: calc(50% - 215px);
-    scale: 0.6;
+    left: calc(50% - 190px);
     margin-top: 60px;
+    scale: 0.8;
   }
 }/*# sourceMappingURL=style.css.map */

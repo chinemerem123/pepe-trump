@@ -66,6 +66,7 @@ body{
 }
 
 .hero-section{
+    overflow-x: hidden;
 
     #watermark{
 width: 2000px;
@@ -172,8 +173,8 @@ margin-top: 30px;
 }
 
 #img-col2{
-    width: 400px;
-    margin-top: 150px;
+    width: 330px;
+    margin-top: 195px;
 }
 
 @media screen and (max-width:800px){
@@ -207,8 +208,9 @@ margin-top: 30px;
 
         .address-clip{
             background-color: red;
+            align-items: center;
             input{
-                width: 80%;
+                width: 90%;
                 
             }
         }
@@ -249,8 +251,8 @@ margin-top: 30px;
     #img-col2{
         position: relative;
         width: 380px;
-        left: calc(50% - 215px);
-        scale: 0.6;
+        left: calc(50% - 190px);
         margin-top: 60px;
+        scale: 0.8;
     }
 }
